@@ -4,7 +4,7 @@
 var uInput = document.getElementById('TextArea').value;
 
 function setCookie(){
-	document.cookie = "newCookie=Cookie Saved is: "+uInput;
+	document.cookie = "newCookie="+uInput;
 	
 }
 
