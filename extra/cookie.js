@@ -27,6 +27,7 @@ function showCookie(){
 	var cook = getCookie();
 	if(cook != ""){
 		alert("Cookie saved: "+cook);
+		alert(uInput);
 	}
 	else{
 		alert("No current cookies.")
