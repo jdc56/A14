@@ -1,7 +1,7 @@
 /**
  * 
  */
-var uInput = document.getElementById('TextArea').value;
+var uInput = document.getElementById('TextArea');
 
 function setCookie(){
 	document.cookie = "newCookie="+uInput;
