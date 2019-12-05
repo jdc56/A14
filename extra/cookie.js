@@ -1,10 +1,10 @@
 /**
  * 
  */
-var uInput = document.getElementById('TextArea');
+
 
 function setCookie(){
-	document.cookie = "newCookie="+uInput;
+	document.cookie = "newCookie=Cookie Saved";
 	
 }
 
@@ -26,8 +26,7 @@ function getCookie() {
 function showCookie(){
 	var cook = getCookie();
 	if(cook != ""){
-		alert("Cookie saved: "+cook);
-		alert(uInput);
+		alert(cook);
 	}
 	else{
 		alert("No current cookies.")
