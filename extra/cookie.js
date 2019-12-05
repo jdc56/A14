@@ -5,7 +5,10 @@
 
 function setCookie(){
 	document.cookie = "newCookie=Cookie Saved";
-	
+}
+
+function deleteCookie(){
+	document.cookie = "newCookie=";
 }
 
 function getCookie() {
